@@ -191,3 +191,23 @@
     width: 190px;
 }
 
+/* footer style */
+
+.footer{
+    text-align: center;
+    background-color: black;
+    margin-top: 40px;
+    padding: 60px;
+    color: white;
+}
+
+.footer-p{
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.copy-right{
+    color: rgb(155, 156, 156);
+    font-size: 12px;
+}
+
