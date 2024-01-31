@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Let's make section css start  */
+.container-of-let-s-make{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #e5547321;
+}
+.let-s-make-about{
+    width: 400px;
+}
+.let-s-make-main-title{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.flower-semple-img{
+    width: 320px;
+}
+
+.btn{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #E55473;
+    color: white;
+}
+
