@@ -1,34 +1,132 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap');
+
+
+* {
     margin: 0;
     padding: 0;
-}
-/* Let's make section css start  */
-.container-of-let-s-make{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100vh;
-  background-color: #e5547321;
-}
-.let-s-make-about{
-    width: 400px;
-}
-.let-s-make-main-title{
-    font-size: 45px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
-.flower-semple-img{
+/* Let's make section style */
+.container-of-let-s-make {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #e5547321;
+}
+
+.let-s-make-about {
+    width: 400px;
+}
+
+.let-s-make-main-title {
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: 800;;
+}
+.banner-info{
+    color: rgba(39, 39, 39, 0.60)
+}
+
+.flower-sample-img {
     width: 320px;
 }
 
-.btn{
+.btn {
     padding: 10px 20px;
-    margin-top: 10px;
+    margin-top: 30px;
     border-radius: 5px;
     border: 0;
     background-color: #E55473;
     color: white;
 }
 
+/* Our featured section css start */
+
+.our-featured {
+    margin-top: 80px;
+}
+
+.our-featured-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.our-featured-title h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.our-featured-title p {
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.container-to-every-featured {
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    padding: 70px;
+    margin-left: 200px;
+}
+
+.featured-flower-container {
+    width: 180px;
+    text-align: center;
+}
+
+.featured-flower-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    padding: 30px;
+    padding-bottom: 0px;
+    background-color: #a721623b;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border: 0;
+    height: 260px;
+}
+
+.featured-flower-img {
+    width: 170px;
+
+}
+
+.pink-tree {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.featured-flower-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    padding: 30px;
+    background-color: #0598a03b;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border: 0;
+    height: 230px;
+
+}
+
+.featured-flower-img-2 {
+    width: 200px;
+
+}
+
+.featured-flower-3 {
+    width: 180px;
+    padding: 30px;
+    padding-bottom: 0;
+    background-color: #477d1163;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border: 0;
+    height: 260px;
+}
